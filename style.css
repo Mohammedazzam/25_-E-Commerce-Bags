@@ -301,3 +301,47 @@ header {
 .products-container .box .bx:hover{
     background-color: #ff8664;
 }
+
+.customers-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.customers-container .box {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    text-align: center;
+}
+.stars .bx {
+    color: var(--main-color);
+}
+.customers-container .box img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: contain;
+    /* object-fit: cover; */
+}
+.customers-container .box h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.customers-container p {
+    font-size: 0.938rem;
+    margin: 0.5 0 0.5rem;
+}
+.customers-container .box:hover {
+    background-color: var(--second-color);
+    transition: 0.6s all linear;
+    -webkit-transition: 0.6s all linear;
+    -moz-transition: 0.6s all linear;
+    -ms-transition: 0.6s all linear;
+    -o-transition: 0.6s all linear;
+}
