@@ -443,3 +443,8 @@ header {
     align-items: center;
     margin-right: 1rem;
 }
+.copyright{
+    padding: 20px;
+    text-align: center;
+    background: var(--second-color);
+}
