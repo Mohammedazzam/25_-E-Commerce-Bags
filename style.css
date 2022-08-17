@@ -388,3 +388,58 @@ header {
     -ms-border-radius: 0.5rem;
     -o-border-radius: 0.5rem;
 }
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1.5rem;
+}
+.footer-box a{
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+.footer-box a:hover{
+    color: var(--main-color);
+}
+.footer-box p {
+    font-size: 0.938rem;
+    margin-bottom: 10px;
+}
+.social {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.social a .bx {
+    font-size: 24px;
+    color: var(--text-color);
+    padding: 10px ;
+    border-radius:5rem;
+    -webkit-border-radius:5rem;
+    -moz-border-radius:5rem;
+    -ms-border-radius:5rem;
+    -o-border-radius:5rem;
+    -webkit-border-radius:5rem;
+}
+.social a .bx:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+.footer-box h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+.contact span {
+    display: flex;
+    align-items: center;
+}
+.contact i {
+    font-size: 20px;
+    align-items: center;
+    margin-right: 1rem;
+}
