@@ -42,6 +42,15 @@ header {
   justify-content: space-between;
   z-index: 1000;
   padding: 18px 100px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+header.active {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ 
 }
 .logo {
   display: flex;
@@ -124,7 +133,7 @@ header {
   right: -100%;
   background: var(--bg-color);
   width: 280px;
-  box-shadow: var(--box-sahdow);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .search-box input {
   border: none;
